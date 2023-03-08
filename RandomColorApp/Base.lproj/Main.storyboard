@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Colors Table View Controller-->
         <scene sceneID="1Zb-M4-HSG">
             <objects>
-                <viewController id="sRl-pz-baD" sceneMemberID="viewController">
+                <viewController id="sRl-pz-baD" customClass="ColorsTableViewController" customModule="RandomColorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B8z-1Y-7um">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
