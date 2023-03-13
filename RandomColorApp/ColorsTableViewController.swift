@@ -26,6 +26,6 @@ extension ColorsTableViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+        performSegue(withIdentifier: "ToColorDetailViewController", sender: nil)
     }
 }
